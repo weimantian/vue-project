@@ -39,7 +39,7 @@ module.exports = {
 			// {test: /\.jpg|png|gif|bmp|jepg$/, use:'url-loader'}
 			// 当图片大小大于等于limit的值时，不会转为base64的字符串（单位byte)
 			// name=【hash]-[name].[ext]解决加载两张同名的资源覆盖问题
-			{test: /\.jpg|png|gif|bmp|jepg|ttf|svg$/, use:'url-loader?limit=39904&name=【hash:8]-[name].[ext]'},
+			{test: /\.jpg|png|gif|bmp|jepg|ttf|svg$/, use:'url-loader?limit=39904&name=【hash:8]-[name].[ext]&esModule=false'},
 			{test: /\.vue$/, use:'vue-loader'}
    
 
