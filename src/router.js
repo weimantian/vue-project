@@ -10,7 +10,7 @@ import search from './component/search.vue'
 //3. 创建路由对象
 var router = new VueRouter({
 	routes: [
-		{path: "/", component: home},
+		{path: "/", redirect: "/home"},
 		{path: "/home", component: home},
 		{path: "/member", component: member},
 		{path: "/shoppingcart", component: shoppingcart},
