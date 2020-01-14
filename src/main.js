@@ -21,6 +21,9 @@ import router from './router.js';
 // 手动安装 Vuerouter
 Vue.use(VueRouter);
 
+import VueResource from 'vue-resource';
+Vue.use(VueResource);
+
 var vm = new Vue({
 	el:'#app',
 	data:{

@@ -38,6 +38,7 @@
 <style scoped>
 	.app-container {
 		padding-top: 40px;
+		padding-bottom: 40px;
 		overflow: hidden;
 	}
 	/* v-enter:定义进入过渡的开始状态。在元素被插入之前生效，在元素被插入之后的下一帧移除。 */
