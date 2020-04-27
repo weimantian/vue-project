@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>shop组件</h1>
+		<h1>movie组件</h1>
 	</div>
 </template>
 
@@ -9,6 +9,6 @@
 
 </script>
 
-<<style scoped>
+<style scoped>
 	
 </style>

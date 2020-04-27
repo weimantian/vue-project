@@ -42,6 +42,7 @@ module.exports = {
 			{test: /\.jpg|png|gif|bmp|jepg|ttf|svg$/, use:'url-loader?limit=39904&name=【hash:8]-[name].[ext]&esModule=false'},
 			{test: /\.vue$/, use:'vue-loader'}
    
+   
 
 		]
 	},
@@ -53,7 +54,7 @@ module.exports = {
 	}
 }
 
-//注意：webpack处理第三昂文件的过程
+//注意：webpack处理第三方文件的过程
 //1. webpack打包过程会校验文件类型
 //2. webpack在打包是发现处理不了的文件，会在webpack.config.js中查找第三方loader规则
 //3. 匹配到规则后会调用对应的loader来处理

@@ -8,11 +8,13 @@ import member from './component/tabbar/member.vue'
 import shoppingcart from './component/tabbar/shoppingcart.vue'
 import search from './component/tabbar/search.vue'
 import newslist from './component/news/newslist.vue'
-import share from './component/news/share.vue'
-import shop from './component/news/shop.vue'
-import feedback from './component/news/feedback.vue'
-import movie from './component/news/movie.vue'
-import call from './component/news/call.vue'
+import newsdetail from './component/news/newsdetail.vue'
+import share from './component/imgshare/share.vue'
+import shop from './component/shop/shop.vue'
+import feedback from './component/feedback/feedback.vue'
+import movie from './component/movie/movie.vue'
+import call from './component/call/call.vue'
+
 
 //3. 创建路由对象
 var router = new VueRouter({
@@ -27,7 +29,8 @@ var router = new VueRouter({
 		{path: "/home/shop", component: shop},
 		{path: "/home/feedback", component: feedback},
 		{path: "/home/movie", component: movie},
-		{path: "/home/call", component: call}
+		{path: "/home/call", component: call},
+		{path: "/home/newsdetail/:id", component: newsdetail}
 	]
 })
 
